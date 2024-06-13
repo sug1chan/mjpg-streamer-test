@@ -2,5 +2,9 @@
 
 # run the mjpg-streamer
 
-# --- your code ---
+source ./setting.sh
+
+APP="./mjpg-streamer/mjpg-streamer-experimental/mjpg_streamer"
+
+$APP -r $RES -f $FPS
 
