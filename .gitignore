@@ -1,2 +1,4 @@
+*.swp
+
 mjpg-streamer/
 mjpg-streamer/*
